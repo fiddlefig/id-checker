@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accepted and Denied
+    </title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/nastyox/Rando.js@master/code/plain-javascript/2.0.0/rando-min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favi/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+<!-- start screen -->
+    <div id="startScreen">
+        <div class="start">
+            <h1>ACCEPTED AND DENIED</h1>
+            <button id="startBtn">Start Checking</button>
+        </div>
+        <div class="socials">
+            <ul>
+                <li><a href="https://github.com/fiddlefig"><img class="socialimg" src="/img/github-mark-white.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/sadaja-r-953a30208/"><img class="socialimg" src="/img/LI-In-Bug.png" alt=""></a></li>
+                <li><a href="https://twitter.com/3pb4nd"><img class="socialimg" src="/img/twitter.png" alt=""></a></li>
+            </ul>
+        </div>
+        <footer>
+            <span>Created By Sadaja Riddick-Johnson</span>
+        </footer>
+    </div>
+<!-- game over screen -->
+    <div id="gameover">
+        <div class="gameovertxt">
+            <span id="go">game over</span>
+            <span id="go2">you messed up too many times! you're fired!</span>
+        </div>
+        
+        <div class="startoverBtn">
+            <button id="startover">Start Over?</button>
+        </div>
+        
+    </div>
+<!-- game -->
+    <div id="game">
+        <nav class="nav-bar">
+            <span>Accepted and Denied</span>
+        </nav>
+        <div class="counters">
+            <span>Wins:</span>
+            <span id="wins">0</span>
+    
+            <span>Losses:</span>
+            <span id="losses">0</span>
+        </div>
+        <div class="date">
+            <span id="dateis">Date is: </span>
+            <span id="date">00/00/0000</span>
+        </div>
+        <div class="container">
+            <span id="pic"></span>
+
+            <div class="names">
+                <span id="name">Name</span>
+                <span id="lastname">LastName</span>
+            </div>
+            
+    
+            <span class="expTxt">EXP: <span id="expMonth">MONTH</span><span id="exp">EXP YR</span></span>
+    
+            <span class="bdayTxt">DOB: <span id="bdayMonth">MONTH</span><span id="bday"></span></span>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="accepted">Accept</button>
+            <button class="btn" id="deny">Deny</button>
+        </div>
+    </div>
+
+    
+
+
+    <script src="/script.js"></script>
+    
+</body>
+</html>
