@@ -6,7 +6,7 @@ body {
 }
 @font-face {
     font-family: 'pixel';
-    src: url('/font/pixel-digivolve-font/pixel.ttf');
+    src: url('./font/pixel-digivolve-font/pixel.ttf');
 }
 .nav-bar {
     background-color: rgb(77, 77, 77);
@@ -158,7 +158,7 @@ body {
 }
 @font-face {
     font-family: 'pixel';
-    src: url(/font/pixel-digivolve-font/pixel.ttf);
+    src: url('./font/pixel-digivolve-font/pixel.ttf');
 }
 .start {
     width: 30%;
@@ -223,7 +223,7 @@ footer {
 }
 @font-face {
     font-family: 'pixel';
-    src: url(/font/pixel-digivolve-font/pixel.ttf);
+    src: url('./font/pixel-digivolve-font/pixel.ttf');
 }
 
 .gameovertxt {
